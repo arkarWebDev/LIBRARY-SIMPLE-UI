@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.search-icon {
+  position: absolute;
+  top: 7px;
+  right: 20px;
+}
+.search-box {
+  position: relative;
+}
+.cus-font-size {
+  font-size: 7rem;
+}
+.carousel-control-next-icon {
+  background-image: url("./next.png");
+  margin-left: 140px;
+}
+.carousel-control-prev-icon {
+  background-image: url("./next.png");
+  transform: scaleX(-1);
+  margin-left: -140px;
+}
+.carousel-control-next.carousel-control-prev {
+  opacity: 0.9;
+  width: 0;
+}
+.book-ctr {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer h3 {
+  margin-bottom: 20px;
+}
+.footer ul li {
+  margin-bottom: 6px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.subscribe__input {
+  border: none;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+}
+.subscribe__btn {
+  border: none;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.subscribe__btn i {
+  font-size: 22px;
+  color: #fff;
+}
+.social_profile ul li {
+  display: inline-block;
+  margin: 20px 6px 0 6px;
+}
+.social_profile ul li a {
+  font-size: 22px;
+}
